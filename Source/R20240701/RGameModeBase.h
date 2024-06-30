@@ -13,5 +13,9 @@ UCLASS()
 class R20240701_API ARGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+	ARGameModeBase();
+
 	
 };

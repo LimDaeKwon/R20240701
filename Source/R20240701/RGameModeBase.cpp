@@ -2,4 +2,12 @@
 
 
 #include "RGameModeBase.h"
+#include "RPawn.h"
+#include "RPlayerController.h"
 
+ARGameModeBase::ARGameModeBase()
+{
+	//Deafault Pawn , PlayerControllerClass Setting
+	DefaultPawnClass = ARPawn::StaticClass();
+	PlayerControllerClass = ARPlayerController::StaticClass();
+}
